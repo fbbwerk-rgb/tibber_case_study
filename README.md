@@ -51,7 +51,7 @@ pip install poetry 2.1.1
 
 ### Complete Optimization Pipeline
 
-Go to the directory `limit_order_algo` and run the full pipeline in the `run_assignment.ps1` in a powershell terminal:
+In the powershell terminal change directory to where you saved the repository. Then run the full pipeline in the `run_assignment.ps1` in a powershell terminal:
 
 ```powershell
 .\run_assignment.ps1
