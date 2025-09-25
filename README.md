@@ -35,7 +35,7 @@ src/
 
 The relation across the internal modules is illustrated below.
 
-![Internal module dependencies](src\data\figures\map.png)
+![Internal module dependencies](.src\data\figures\map.png)
 
 ## Installation
 
