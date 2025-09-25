@@ -37,6 +37,7 @@ The relation across the internal modules is illustrated below.
 
 ![Internal module dependencies](src\data\figures\map.png)
 
+
 ## Installation
 
 1. Clone the repository
