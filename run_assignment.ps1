@@ -1,3 +1,4 @@
+poetry run pip install --upgrade setuptools # Ensure setuptools is up to date
 poetry lock
 poetry install
 poetry run pytest tests/
