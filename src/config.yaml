@@ -1,0 +1,40 @@
+# Risk tolerance parameter (to increase willingness to pay for spot). Higher TAU means more risk tolerant. 
+TAU: 0.5
+
+# Constants
+# Reasonable ranges for EV
+CAR_MODELS:
+  "Tesla Y":
+    battery_size_kwh: 75
+  "Volvo EX30":
+    battery_size_kwh: 69
+  "Volvo XC40":
+    battery_size_kwh: 82
+  "Polestar 2":
+    battery_size_kwh: 70
+  "VW ID.4":
+    battery_size_kwh: 82
+
+# Reasonable ranges for home charging power in Sweden (kW)
+TYPICAL_SWE_HOME_MAX_CHARGING_KW:
+  - 3.7
+  - 7.4
+  - 7.4
+  - 11
+  - 11
+  - 11
+  - 22
+  - 22
+  - 22
+
+# Limits for arrival, departure and initial state of charge (soc) percentage
+LIMITS:
+  arrival_time:
+    min: "17:00"
+    max: "21:59"
+  departure_time:
+    min: "05:00"
+    max: "10:01"
+  initial_soc_perc:
+    min: 0.10
+    max: 0.96
